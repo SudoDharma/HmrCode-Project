@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+/*Top*/
+.nav{
+    list-style-type: none;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    a:hover{
+        color: rgb(95, 94, 94);
+    }
+    .terbit{
+        margin-left: 100px;
+        float: left;
+    }
+    .jadwal{
+        margin-left: 800px;
+        float: left;
+    }
+    .alumni{
+        margin-left: 30px;
+        float: left;
+    }
+.background1{
+    background-color: rgb(145, 143, 143);
+    margin-top: 30px;
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    z-index: -1;
+}
+.text1{
+    float: left;
+    margin-top: 110px;
+    margin-left: 150px;
+    color: white;
+    font-weight: lighter;
+}
+    .paragraf{
+        color: rgb(231, 230, 230);
+    }
+/*Tabel*/
+.tabel{
+    float: left;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+    .tabelnya,  th, tr, td{
+        border-collapse: collapse;
+        border-bottom: 2px solid rgb(192, 191, 191);
+        padding: 10px;
+        text-align: left;
+    }
+        th{
+            width: 200px;
+        }
+        .materi{
+            width: 450px;
+        }
+/*Bottom*/
+.background2{
+    background-image: linear-gradient(to right, #FFEB3B, #FFBA00);
+    margin-top: 1975px;
+    box-sizing: border-box;
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    z-index: -1;
+}
+.textbox{
+    margin-top: 2100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    height: 200px;
+    text-align: left;
+    background-color: white;
+    border-radius: 10px;
+}
+    .text2{
+        position: absolute;
+        padding-top: 35px;
+        padding-left: 50px;
+        font-weight: lighter;
+        line-height: 2;
+    }
+        .mari{
+            color: teal;
+            font-weight: lighter;
+        }
+        .tombol{
+            padding-top: 75px;
+            padding-right: 50px;
+            float: right;
+        }
+            .tombol button{
+                background-image: linear-gradient(to right, #FFEB3B, #FFBA00);
+                border-radius: 10px;
+                height: 50px;
+                width: 200px;
+            }
+
+.background3{
+    margin-top: 70px;
+    background-color: rgb(49, 49, 49);
+    position: absolute;
+    z-index: -1;
+    height: 150px;
+    width: 100%;
+}
+.dengan{
+    margin-top: 140px;
+    text-align: center;
+    color: rgb(168, 167, 167);
+    font-weight: lighter;
+    font-size: medium;
+}

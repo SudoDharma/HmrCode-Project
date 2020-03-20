@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+/*halaman pertama*/
+.background1{
+    background-image: linear-gradient(to right, #FFEB3B, #FFBA00);
+    transform: skewY(-15deg);
+    box-sizing: border-box;
+    width: 100%;
+    height: 700px;
+    margin-top: -300px;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+.nav{
+    list-style-type: none;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    a:hover{
+        color: rgb(95, 94, 94);
+    }
+    .terbit{
+        margin-left: 100px;
+        float: left;
+    }
+    .jadwal{
+        margin-left: 800px;
+        float: left;
+    }
+    .alumni{
+        margin-left: 30px;
+        float: left;
+    }
+.header{
+    text-align: center;
+    margin-top: 200px;
+}
+/*Halaman kedua*/
+.mengapa{
+    margin-top: 450px;
+    margin-left: 200px;
+    line-height: 2;
+}
+.atas{
+    color: teal;
+    font-weight: lighter;
+    line-height: 3;
+}
+.gambar{
+    float: right;
+}
+.gambar1{
+    z-index: -1;
+    margin-left: 650px;
+    margin-top: -210px;
+    height: 220px;
+    box-shadow: 5px 5px 5px grey;
+}
+.gambar2{
+    margin-left: 720px;
+    margin-top: -90px;
+    box-shadow: 5px 5px 5px grey;
+}
+/*Halaman tiga*/
+.background2{
+    background-color: rgb(237, 252, 250);
+    height: 700px;
+    width: 100%;
+}
+.program{
+    text-align: center;
+    margin-top: 150px;
+    padding-top: 150px;
+    font-weight: lighter;
+    color: teal;
+}
+.kolom{
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+    .kotak1{
+        border: 5px black;
+        width: 300px;
+        height: 425px;
+        float: left;
+        background-color: white;
+        box-shadow: 5px 5px 5px 5px gray;
+    }
+        .warna1{
+            background-color:seagreen;
+            height: 150px;
+            width: 300px; 
+        }
+                .gambar3{
+                    background-image: url(img-1.jpg);
+                    height: 150px;
+                    width: 300px;
+                    z-index: -1;
+                    opacity: 0.5;
+                }
+                .kolom1{
+                    list-style-type: none;
+                    line-height: 2;
+                    font-weight: lighter;
+                }
+                    .judul1{
+                        font-weight: lighter;
+                        line-height: 3;
+                    }
+    .kotak2{
+        border: 5px black;
+        width: 300px;
+        height: 425px;
+        float: right;
+        background-color: white;
+        box-shadow: 5px 5px 5px 5px gray;
+     }
+        .warna2{
+            background-color: cyan;
+            height: 150px;
+            width: 300px;
+        }
+            .gambar4{
+                background-image: url(img-1.jpg);
+                height: 150px;
+                width: 300px;
+                z-index: -1;
+                opacity: 0.5;
+            }
+                .kolom2{
+                    list-style-type: none;
+                    line-height: 2;
+                    font-weight: lighter;
+                }
+                    .judul2{
+                        font-weight: lighter;
+                        line-height: 3;
+                    }
+
+/*Halaman4*/
+.instruk{
+    text-align: center;
+    margin-top: 100px;
+    font-weight: lighter;
+    color: teal;
+}
+.user{
+    margin-top: 100px; 
+    margin-left: 200px;
+    margin-right: 200px;    
+}
+h4{
+    font-weight: lighter;
+    font-size: 20px;
+}
+    .user1{
+        position: absolute;
+        float: left;
+        margin-left: 50px;
+        height: 300px;
+        width: 200px;
+        text-align: center;
+        line-height: 2;
+    }
+    .user2{
+        position: absolute;
+        margin-left: 335px;
+        height: 300px;
+        width: 200px;
+        text-align: center;
+        line-height: 2;
+    }
+    .user3{
+        float: right;
+        margin-right: 50px;
+        height: 300px;
+        width: 200px;
+        text-align: center;
+        line-height: 2;
+    }
+    .user1:hover, .user2:hover, .user3:hover{
+        transform: scale(1.1);
+        transition: 1s all;
+        box-shadow: 5px 5px 5px 5px gray;
+    }
+.tombol1 button{
+    margin-top: 370px;
+    margin-left: 540px;
+    padding-top: 5px;
+    background-color: #FFEB3B;
+    border-radius: 10px;
+    height: 70px;
+    width: 200px;
+    text-align: center;
+    font-size: large;
+    font-weight: lighter;
+}
+/*halaman5*/
+.background3{
+    background-image: linear-gradient(to right, #FFEB3B, #FFBA00);
+    margin-top: 125px;
+    box-sizing: border-box;
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    z-index: -1;
+}
+.textbox1{
+    margin-top: 240px;
+    margin-left: 250px;
+    margin-right: 250px;
+    height: 200px;
+    text-align: left;
+    background-color: white;
+    border-radius: 10px;
+}
+    .text1{
+        position: absolute;
+        padding-top: 35px;
+        padding-left: 50px;
+        font-weight: lighter;
+        line-height: 2;
+    }
+        .mari{
+            color: teal;
+            font-weight: lighter;
+        }
+        .tombol2{
+            padding-top: 75px;
+            padding-right: 50px;
+            float: right;
+        }
+            .tombol2 button{
+                background-image: linear-gradient(to right, #FFEB3B, #FFBA00);
+                border-radius: 10px;
+                height: 50px;
+                width: 200px;
+            }
+/*Halaman6*/
+.background4{
+    background-image: url(community.jpg);
+    margin-top: 85px;
+    position: absolute;
+    filter: brightness(50%);
+    height: 500px;
+    width: 100%;
+    border: 1px black;
+    z-index: -1;
+}
+.textbox2{
+    margin-top: 250px;
+    text-align: center;
+    color: rgb(168, 167, 167);
+    font-weight: lighter;
+    line-height: 2;
+}
+    .text2{
+        font-weight: lighter;
+    }
+        .kami{
+            font-weight: lighter;
+        }
+    .tombol3 button{
+        margin-top: 20px;
+        height: 40px;
+        background-color: #FFEB3B;
+        color: black;
+    }
+/*Halaman7*/
+.background5{
+    margin-top: 163px;
+    background-color: rgb(49, 49, 49);
+    position: absolute;
+    z-index: -1;
+    height: 150px;
+    width: 100%;
+}
+.dengan{
+    margin-top: 235px;
+    text-align: center;
+    color: rgb(168, 167, 167);
+    font-weight: lighter;
+    font-size: medium;
+}
